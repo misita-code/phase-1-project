@@ -1,0 +1,67 @@
+/* Default (light) theme styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 10%, 6%);
+    background-image: url("https://images.theconversation.com/files/394/original/See_Explanation._Clicking_on_the_picture_will_download_the_highest_resolution_version_available.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=926&fit=clip");
+    color: black;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    width: 70%;
+  }
+  
+  button {
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  #launch-details {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Dark theme styles */
+  body.dark-theme {
+    background-color: #333;
+    color: white;
+  }
+  
+  .container.dark-theme {
+    background-color: #444;
+    border-color: #777;
+  }
+  
+  button.dark-theme {
+    background-color: #555;
+    color: white;
+  }
+  
+  #launch-details.dark-theme {
+    background-color: #555;
+    border-color: #777;
+  }
+  
